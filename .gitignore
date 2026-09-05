@@ -1,0 +1,41 @@
+# ---- Data (not committed; see data/README.md for how to obtain) ----
+data/*.csv
+data/**/*.csv
+*.csv
+!data/README.md
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.python-version
+.ipynb_checkpoints/
+
+# ---- Jupyter / notebook run artifacts ----
+vgsales_for_tableau.csv
+rawg_year_cache.json
+
+# ---- Tableau ----
+# Packaged extracts and per-user/session cruft. The .twb (XML) IS committed.
+*.hyper
+*.twbr
+*.twb.bak
+Book1.twb
+*.tde
+.tab_*
+
+# ---- Secrets / local config ----
+.env
+.env.*
+!.env.example
+*.key
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/

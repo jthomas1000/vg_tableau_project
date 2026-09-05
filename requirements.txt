@@ -1,0 +1,10 @@
+# Notebook dependencies (notebooks/video_game_sales_analysis_kaggle.ipynb).
+# The Tableau workbook needs Tableau Desktop / Public, not these.
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+seaborn>=0.13
+matplotlib>=3.7
+scikit-learn>=1.3
+statsmodels>=0.14
+jupyter>=1.0

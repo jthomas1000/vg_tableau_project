@@ -1,0 +1,10 @@
+# Tableau workbooks are large generated XML. Keep them as text (so GitHub
+# shows history) but don't try to render a line-by-line diff.
+*.twb   text eol=lf -diff linguist-generated
+*.twbx  binary
+
+# Jupyter notebooks: treat as text, no diff noise in PRs.
+*.ipynb text -diff linguist-language=Python
+
+# Normalize everything else.
+* text=auto
