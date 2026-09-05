@@ -31,7 +31,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='vgsales' name='textscan.1rycscm0ilbzv11b4y69d0yrthc4'>
-            <connection class='textscan' directory='C:/Users/thatg/Downloads' filename='vgsales.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='../data' filename='vgsales.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation name='Pivot' type='pivot'>
