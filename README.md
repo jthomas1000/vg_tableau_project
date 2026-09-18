@@ -1,4 +1,4 @@
-# Video Game Sales — Analysis & Tableau Dashboard
+# Video Game Sales Analysis & Tableau Dashboard
 
 Exploratory analysis and an interactive dashboard built on the
 [Video Game Sales](https://www.kaggle.com/datasets/gregorut/videogamesales)
