@@ -14,9 +14,14 @@ Two deliverables:
 
 ## Output screenshots
 
-Captured from a full run of the notebook on September 27, 2026 (no RAWG API
-key, so the 271 titles with a missing year were dropped as the notebook
-describes).
+Captured on September 27, 2026: the dashboard from the packaged workbook
+opened in Tableau Public 2026.2, and the charts from a full run of the
+notebook (no RAWG API key, so the 271 titles with a missing year were
+dropped as the notebook describes).
+
+**Tableau dashboard (`Dashboard 1`)**
+
+![Tableau dashboard: KPI tiles, genre and platform sales, industry lifecycle](screenshots/tableau_dashboard.png)
 
 **Key printed results**
 
