@@ -1147,7 +1147,7 @@
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='98896' id='9' param='horz' type-v2='layout-flow' w='99000' x='500' y='552'>
             <zone h='98896' id='7' type-v2='layout-basic' w='89000' x='500' y='552'>
-              <zone h='24000' id='3' name='Genre Sales' w='89000' x='500' y='24966'>
+              <zone h='22000' id='3' name='Genre Sales' w='89000' x='500' y='24966'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1155,7 +1155,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='11310' id='5' name='Platform Sales' w='89000' x='500' y='48966'>
+              <zone h='15000' id='5' name='Platform Sales' w='89000' x='500' y='46966'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1219,7 +1219,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='18483' id='24' name='Industry Lifecycle' w='89000' x='500' y='60276'>
+              <zone h='16793' id='24' name='Industry Lifecycle' w='89000' x='500' y='61966'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
