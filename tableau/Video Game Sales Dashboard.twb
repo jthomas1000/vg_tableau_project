@@ -1147,7 +1147,7 @@
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='98896' id='9' param='horz' type-v2='layout-flow' w='99000' x='500' y='552'>
             <zone h='98896' id='7' type-v2='layout-basic' w='89000' x='500' y='552'>
-              <zone h='17517' id='3' name='Genre Sales' w='89000' x='500' y='24966'>
+              <zone h='24000' id='3' name='Genre Sales' w='89000' x='500' y='24966'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1155,7 +1155,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='17793' id='5' name='Platform Sales' w='89000' x='500' y='42483'>
+              <zone h='11310' id='5' name='Platform Sales' w='89000' x='500' y='48966'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
