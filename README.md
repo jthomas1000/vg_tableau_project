@@ -12,6 +12,55 @@ Two deliverables:
 | [`notebooks/video_game_sales_analysis_kaggle.ipynb`](notebooks/video_game_sales_analysis_kaggle.ipynb) | Data cleaning, EDA, and a few modeling experiments | Python (pandas / seaborn / scikit-learn / statsmodels) |
 | [`tableau/Video Game Sales Dashboard.twb`](tableau/Video%20Game%20Sales%20Dashboard.twb) | KPI tiles + genre / platform / publisher / regional views | Tableau 2026.2 |
 
+## Output screenshots
+
+Captured on September 27, 2026: the dashboard from the packaged workbook
+opened in Tableau Public 2026.2, and the charts from a full run of the
+notebook (no RAWG API key, so the 271 titles with a missing year were
+dropped as the notebook describes).
+
+**Tableau dashboard (`Dashboard 1`)**
+
+![Tableau dashboard: KPI tiles, genre and platform sales, industry lifecycle](screenshots/tableau_dashboard.png)
+
+**Key printed results**
+
+![Notebook output: dataset size, leakage check, model R-squared, forecast, Tableau export](screenshots/notebook_key_results.png)
+
+**Genre and platform totals**
+
+![Global sales by genre and top 10 platforms](screenshots/genre_platform_sales.png)
+
+**Genre dominance over time**
+
+![Stacked area of global sales by genre, 1980-2020](screenshots/genre_dominance_over_time.png)
+
+**Regional split by genre**
+
+![Share of each genre's sales by region](screenshots/regional_split_by_genre.png)
+
+**Hit-makers vs. volume dealers**
+
+![Publisher bubble chart: titles released vs. sales per title](screenshots/publisher_hitmakers.png)
+
+**Publisher clusters (k-means, k=3)**
+
+![Publisher clusters scatter](screenshots/publisher_clusters.png)
+
+**Console manufacturers over time**
+
+![Nintendo, PlayStation, Xbox sales by year](screenshots/manufacturer_comparison.png)
+
+**Can we predict a hit? Before and after adding critic scores**
+
+![Feature importances, pre-release features only](screenshots/hit_prediction_features.png)
+
+![Feature importances with Critic_Score added](screenshots/hit_prediction_with_critic_score.png)
+
+**Holt-Winters forecast of annual global sales**
+
+![Actual 1996-2015 sales and 2016-2020 forecast](screenshots/sales_forecast.png)
+
 ## Questions this project looks at
 
 - Which genres and platforms have sold the most, and has that shifted over time?
